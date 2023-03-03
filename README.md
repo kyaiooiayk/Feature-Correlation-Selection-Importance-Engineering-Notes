@@ -2,6 +2,13 @@
 *List of notebooks focused on feature selection, feature importance and feature engineering*
 ***
 
+## What is what?
+- Features correlation
+- Features selection
+- Features importance
+- Feature engineering
+***
+
 ## A note on the notebook rendering
 Each notebook has two versions (all python scripts are unaffected by this):
 - One where all the markdown comments are rendered in black& white. These are placed in the folder named `GitHub_MD_rendering` where MD stands for MarkDown.
@@ -32,3 +39,5 @@ Each notebook has two versions (all python scripts are unaffected by this):
 
 ## References
 - [A comprehensive guide for Feature Engineering and Feature Selection, with implementations and examples in Python](https://github.com/Yimeng-Zhang/feature-engineering-and-feature-selection)
+- [Feature Selection And Feature Importance: How Are They Related?](https://mindfulmodeler.substack.com/p/feature-selection-or-feature-importance?utm_source=substack&utm_medium=email)
+***
