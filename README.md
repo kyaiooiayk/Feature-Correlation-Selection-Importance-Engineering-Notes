@@ -3,10 +3,10 @@
 ***
 
 ## What is what?
-- Features correlation
-- Features selection
-- Features importance
-- Feature engineering
+- ➡️ Feature correlation:
+- ➡️ Feature selection:
+- ➡️ Feature importance: 
+- ➡️ Feature engineering: the art of creating new features that were not in the original training set.
 ***
 
 ## A note on the notebook rendering
