@@ -3,10 +3,11 @@
 ***
 
 ## What is what?
-- ➡️ Feature correlation:
-- ➡️ Feature selection:
-- ➡️ Feature importance: 
-- ➡️ Feature engineering: the art of creating new features that were not in the original training set.
+- ➡️ **Feature correlation** is a well-known similarity measures between two features
+- ➡️ **Feature selection** (related to f. importance but not the same thing) aims to reduce the dimensionality of the input feature space and is usually done either before training the model or as part of the model training pipeline.
+- ➡️ **Feature importance** (related to f. selection but not the same thing) aims to rank and quantify the feature’s contribution to the model predictions and/or model performance. It depends on the method and it may give two features that are highly correlated which would not help the interpretability of the model.
+- ➡️ **Feature engineering** is the art of creating new features that were not in the original training set.
+- ➡️ **Feature interpretation** is more of a post-hoc step that is more hands-on. This is  not covered in this reposotiry, see [x-AI](https://github.com/kyaiooiayk/Explainable-AI-xAI-Notes).
 ***
 
 ## A note on the notebook rendering
