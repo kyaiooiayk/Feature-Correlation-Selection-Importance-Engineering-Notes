@@ -10,12 +10,6 @@
 - ➡️ **Feature interpretation** is more of a post-hoc step that is more hands-on. This is  not covered in this reposotiry, see [x-AI](https://github.com/kyaiooiayk/Explainable-AI-xAI-Notes).
 ***
 
-## A note on the notebook rendering
-Each notebook has two versions (all python scripts are unaffected by this):
-- One where all the markdown comments are rendered in black& white. These are placed in the folder named `GitHub_MD_rendering` where MD stands for MarkDown.
-- One where all the markdown comments are rendered in coloured.
-***
-
 ## Available tutorials
 - [Automatic feature selection](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Automatic%20feature%20selection.ipynb)
 - [Categorical features correlation](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Categorical%20features%20correlations.ipynb)
@@ -40,6 +34,12 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [Recursive feature elimination](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Recursive%20feature%20elimination.ipynb)
 - [Target encoding for categorical features](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Target%20encoding%20for%20categorical%20features.ipynb)
 ***
+
+## A note on the notebook rendering
+Each notebook has two versions (all python scripts are unaffected by this):
+- One where all the markdown comments are rendered in black& white. These are placed in the folder named `GitHub_MD_rendering` where MD stands for MarkDown.
+- One where all the markdown comments are rendered in coloured.
+*** 
 
 ## References
 - [A comprehensive guide for Feature Engineering and Feature Selection, with implementations and examples in Python](https://github.com/Yimeng-Zhang/feature-engineering-and-feature-selection)
