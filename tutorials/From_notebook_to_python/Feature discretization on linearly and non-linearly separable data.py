@@ -143,7 +143,8 @@ for ds_cnt, (X, y) in enumerate(datasets):
     ax.set_yticks(())
 
     # iterate over classifiers
-    for est_idx, (name, (estimator, param_grid)) in             enumerate(zip(names, classifiers)):
+    for est_idx, (name, (estimator, param_grid)) in \
+            enumerate(zip(names, classifiers)):
         ax = axes[ds_cnt, est_idx + 1]
 
         clf = GridSearchCV(estimator=estimator, param_grid=param_grid)
