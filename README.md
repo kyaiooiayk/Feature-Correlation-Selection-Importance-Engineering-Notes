@@ -33,7 +33,7 @@
 - [Ratio of features](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Ratio%20of%20features.ipynb)
 - [Recursive feature elimination](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Recursive%20feature%20elimination.ipynb)
 - [Target encoding for categorical features](https://github.com/kyaiooiayk/Feature-Correlation-Selection-Importance-Engineering-Notes/blob/main/tutorials/Target%20encoding%20for%20categorical%20features.ipynb)
-***
+*** 
 
 ## A note on the notebook rendering
 Each notebook has two versions (all python scripts are unaffected by this):
