@@ -16,7 +16,6 @@
 # In[1]:
 
 
-
 import os
 import warnings
 from pathlib import Path
@@ -120,7 +119,6 @@ def clean(df):
 # Pandas has Python types corresponding to the standard statistical types (numeric, categorical, etc.). Encoding each feature with its correct type helps ensure each feature is treated appropriately by whatever functions we use, and makes it easier for us to apply transformations consistently. This hidden cell defines the `encode` function:
 
 # In[5]:
-
 
 
 # The numeric features are already encoded correctly (`float` for
@@ -234,7 +232,6 @@ df_train, df_test = load_data()
 # In[9]:
 
 
-
 def score_dataset(X, y, model=XGBRegressor()):
     # Label encoding for categoricals
     #
@@ -272,7 +269,6 @@ print(f"Baseline score: {baseline_score:.5f} RMSLE")
 # In Lesson 2 we saw how to use mutual information to compute a *utility score* for a feature, giving you an indication of how much potential the feature has. This hidden cell defines the two utility functions we used, `make_mi_scores` and `plot_mi_scores`: 
 
 # In[11]:
-
 
 
 def make_mi_scores(X, y):
@@ -369,7 +365,6 @@ def label_encode(df):
 # In[16]:
 
 
-
 def mathematical_transforms(df):
     X = pd.DataFrame()  # dataframe to hold new features
     X["LivLotRatio"] = df.GrLivArea / df.LotArea
@@ -425,7 +420,6 @@ def group_transforms(df):
 # In[17]:
 
 
-
 cluster_features = [
     "LotArea",
     "TotalBsmtSF",
@@ -465,7 +459,6 @@ def cluster_distance(df, features, n_clusters=20):
 # Here are the utility functions from the PCA lesson:
 
 # In[18]:
-
 
 
 def apply_pca(X, standardize=True):
@@ -513,7 +506,6 @@ def plot_variance(pca, width=8, dpi=100):
 # 
 
 # In[19]:
-
 
 
 def pca_inspired(df):
@@ -592,7 +584,6 @@ def indicate_outliers(df):
 # In the next hidden cell is a wrapper you can use with any target encoder:
 
 # In[22]:
-
 
 
 class CrossFoldEncoder:
